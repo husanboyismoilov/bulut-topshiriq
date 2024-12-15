@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanoq Tizimi Kalkulyatori</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sanoq Tizimi Kalkulyatori</h1>
+        
+        <div class="conversion-options">
+            <label>
+                <input type="radio" name="conversion" value="toBinary" checked>
+                10-likdan 2 likga
+            </label>
+            <label>
+                <input type="radio" name="conversion" value="toDecimal">
+                2 likdan 10 likga
+            </label>
+        </div>
+        
+        <input type="text" id="numberInput" placeholder="Son kiriting">
+        <button onclick="convertNumber()">O'tkazish</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
