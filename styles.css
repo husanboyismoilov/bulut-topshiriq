@@ -14,7 +14,7 @@ body {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 300px;
+    width: 320px;
 }
 
 h1 {
@@ -44,7 +44,7 @@ input[type="text"] {
 
 button {
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: #007bff;
     border: none;
     color: #fff;
     border-radius: 4px;
@@ -52,11 +52,11 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #0056b3;
 }
 
 #result {
     margin-top: 20px;
     font-size: 1.2em;
-    color: #007bff;
+    color: #28a745;
 }
